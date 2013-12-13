@@ -1,93 +1,17 @@
 @CHARSET "UTF-8";
 
-
-h3 {font-size: 24px;
-	font-family: Helvetica;
-	font-weight: bold; 
-	color: #388E8E;}
-	
-p {
-	font-family: Helvetica;
-	font-size: 16px;
-}	
-
-a {
-	font-family: Helvetica;
-	font-size: 16px;
-	color: black;
-	margin-bottom: 50px;
+.jumbotron {
+  padding: 30px;
+  margin-bottom: 30px;
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 2.1428571435;
+  color: inherit;
+  background-color: #0077b4;
 }
 
-
-hr {
-	margin-top: 50px;
-}
-
-
-
-a:link {
-    text-decoration: none;
-}
-	
-a:hover {
-	color: #388E8E;
-	font-family: Helvetica;
-	text-decoration: none;
-}
-
-a:visited {
-    color: #9999ff;
-}
-
-
-td {
-	font-family: Helvetica;
-	font-size: 12px;
-    height:30px;
-    width: 200px;
-    border:1px solid black;
-    
- 
-}
-
-th {
-	font-family: Helvetica;
-	font-size: 14px;
-	height:50px;
-    border:1px solid black;
-    
-}	
-
-table {
-    border: 3px solid black;
-    
-    
-}
-
-
-
-.Blue {
-	background-color: #e5e5ff;
-}
-
-.Uetab {
-	font-family: Helvetica;
-	font-size: 18px;
-}
-
-.Abstand {
-	margin-top: 80px;
-}
-
-
-#thead {
-	background-color: #AAAAFF
-}	
-
-
-
-
-
-
-
+.btn-primary {
+  color: #ffffff;
+  background-color: #0099e8;
+  border-color: #357ebd;
 
