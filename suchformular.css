@@ -189,7 +189,12 @@ label {
 
 
 .mail:hover {
-	color: blue;
+	color: #02a9ff !important;
 	
 	
+}
+
+.mail {
+	color: #0077b4 !important;
+	text-decoration: underline;
 }

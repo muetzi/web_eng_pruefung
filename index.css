@@ -15,3 +15,7 @@
   background-color: #0099e8;
   border-color: #357ebd;
 }
+
+.btn-primary:hover {
+	background-color: #02a9ff;
+}
