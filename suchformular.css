@@ -135,7 +135,7 @@ table {
         height: 40px;
         width: 130px;
 		border-color: black;
-		border-radius: 30px;
+		
         
 }
 
@@ -162,7 +162,7 @@ legend {
 .text {
         height: 30px;
         width: 600px;
-        border-radius: 30px;
+        
         border-color: #00688B;
         margin-top: 20px;
 }
