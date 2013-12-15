@@ -17,7 +17,7 @@ h1 {
         font-weight: bold; 
         color: black;
         font-size: 24px;
-        
+		text-align: center;
 }
 
 
@@ -26,6 +26,7 @@ h2 {font-size: 16px;
     font-family: Helvetica;
     font-weight: bold; 
      color: black;
+	 text-align: center;
 	}
 
 
@@ -44,13 +45,7 @@ a {
         font-family: Helvetica;
         font-size: 16px;
         color: black;
-        
-}
-
-
-hr {
-        margin-top: 50px;
-}
+	}
 
 
 
@@ -112,16 +107,14 @@ table {
 
 .Abstand {
         margin-top: 80px;
+		margin-bottom: 50px;
 }
 
 .Abstand2 {
         margin-top:50px;
+		margin-left:150px;
+		margin-bottom: 50px;
 }
-
-footer {
-	margin-top: 50px;
-}
-
 
 #thead {
         background-color: #AAAAFF
@@ -141,8 +134,8 @@ footer {
         background-color: #00688B;
         height: 40px;
         width: 130px;
-       
-        border-color: black;
+		border-color: black;
+		border-radius: 30px;
         
 }
 
@@ -153,6 +146,7 @@ footer {
         text-align: center;
         font-weight: bold;
         cursor: pointer;
+		
 		
         
 }
@@ -168,7 +162,7 @@ legend {
 .text {
         height: 30px;
         width: 600px;
-        
+        border-radius: 30px;
         border-color: #00688B;
         margin-top: 20px;
 }
@@ -203,3 +197,24 @@ label {
 	color: #0077b4 !important;
 	text-decoration: underline;
 }
+
+.backlink {
+	padding: 0.8em 2em 0.8em 2em;
+    margin-top: 100px;
+    margin-bottom: 30px;
+	margin-left: 150px;
+	border: solid;
+	border-color: #00688B;
+	color: #02a9ff !important;
+	
+}
+
+.backlink2 {
+	padding: 0.8em 2em 0.8em 2em;
+    margin-top: 100px;
+    margin-bottom: 30px;
+	border: solid;
+	border-color: #00688B;
+	color: #02a9ff !important;
+}
+

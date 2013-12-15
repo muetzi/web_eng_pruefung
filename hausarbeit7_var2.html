@@ -11,15 +11,18 @@
 	  
 	  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	  <link type="text/css" rel="stylesheet" href="index.css"/>
-	  <title>E. Zenz - Impressum</title>
+	  <title>E. Zenz - Suchformular</title>
  
+
+
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Prüfungsaufgabe des iversity-Kurses Web-Engineering I" />
     <meta name="author" content="Elisabeth Zenz" />
     <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png" />
 
-    
+   
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet" />
@@ -58,15 +61,15 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="http://elisabethzenz1.cloudcontrolled.com/impressum.html">Elisabeth Zenz</a>
+          <a class="navbar-brand" href="http://elisabethzenz1.cloudcontrolled.com/aboutme.html">Elisabeth Zenz</a>
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li><a href="http://elisabethzenz1.cloudcontrolled.com">Home</a></li>
             <li><a href="http://elisabethzenz1.cloudcontrolled.com/hausarbeit6.html">Hausarbeit Kap. 6</a></li>
-			<li><a href="http://elisabethzenz1.cloudcontrolled.com/hausarbeit7.html">Hausarbeit Kap. 7</a></li>
+			<li class="active"><a href="http://elisabethzenz1.cloudcontrolled.com/hausarbeit7.html">Hausarbeit Kap. 7</a></li>
 			
-            <li class="active"><a href="http://elisabethzenz1.cloudcontrolled.com/impressum.html">Impressum</a></li>
+            <li><a href="http://elisabethzenz1.cloudcontrolled.com/impressum.html">Impressum</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -75,27 +78,49 @@
 
 
     <div class="container">
+
+      <div class="starter-template">
+        <h1>Hausarbeit 7: Barrierefreies Suchformular</h1>
 		
-		<h3>Impressum</h3>
-		
-		<p>Elisabeth Zenz</p>
-		<p>Mittere Gasse 12</p>
-		<p>2493 Lichtenwörth</p>
-		<p>Österreich</p>
-		
-		<a class="mail" href= "mailto:elisabeth.zenz@gmail.com">elisabeth.zenz@gmail.com</a>
-		
-  	  <div class="Abstand2">
-  	        <p>&copy; Elisabeth Zenz 2014</p> 
-  	  </div>	
-	  
+        <p class="lead">In dieser Hausarbeit geht es um die Erstellung eines barrierefreien Webformular für die Wikipedia-Suche. Sowohl Artikelsuche als auch Volltextsuche sollen möglich sein.</p>
+      </div>
+
+	  <form action="http://de.wikipedia.org/wiki/Spezial:Suche">
+	     <fieldset>
+	           <legend>Suche</legend>
+                  
+	  				  <label>
+	  				  Geben Sie hier Ihren Suchbegriff ein:
+	                    <input class= "text" type="text"   name="search" value="" />
+	  				  </label>
+          
+          
+          
+	        <input class="suchee" type="submit" name="Artikelsuche" value="Artikelsuche"/>
+	        <input class="suchee" type="submit" name="fulltext" value="Volltextsuche" />
+              
+	     </fieldset>
+	  </form>
+
+
+	  <div class="Abstand2">
+	
+	  	<a href="http://wave.webaim.org/report#/elisabethzenz1.cloudcontrolled.com/hausarbeit7.html">
+	  		<img src="http://www.w3.org/WAI/wcag1AAA.gif" alt= "WebAccessibility" />
+	  	</a>
+
+	  </div>
+
+	  <div class="Abstand2">
+	        <p>&copy; Elisabeth Zenz 2013</p> 
+	  </div>
+
     </div><!-- /.container -->
 
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
+  
   </body>
 </html>
